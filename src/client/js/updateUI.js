@@ -12,7 +12,7 @@ const updateUI = (res) => {
         score_tag.innerHTML = `Score_Tag:  ${res.score_tag}`;
         agreement.innerHTML = `Agreement:  ${res.agreement}`;
         subjectivity.innerHTML = `Subjectivity: ${res.subjectivity}`;
-        confidence.innerHTML =  `Confidence Rank(1-100) : ${res.confidence}%`;
+        confidence.innerHTML =  `Confidence : ${res.confidence}%`;
         irony.innerHTML = `Irony:   ${res.irony}`;
 }
 
