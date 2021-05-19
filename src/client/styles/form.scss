@@ -1,0 +1,20 @@
+form {
+    background-color: darkslategrey;
+    border: 1px solid #545454;
+    border-radius: 8px;
+    padding: 40px;
+    color: aliceblue;
+}
+
+
+input, button {
+    padding: 5px 20px;
+    width: 80%;
+    line-height: 16px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+}
+

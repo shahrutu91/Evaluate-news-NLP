@@ -1,0 +1,9 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Evaluate News with NLP</title><script defer="defer" src="main.js"></script><link href="main.css" rel="stylesheet"></head><body><header><h1>News Article with Natural Language Process</h1><h2>Evaluating With Meaning Cloud</h2></header><main><section><form class=""><label for="url">Enter a URL here:</label> <input id="urlValue" name="url" placeholder="http://wwww.example.com"> <button id="submit" type="submit">Submit</button></form><div id="errorMsg"></div></section><section><div id="results"><p><strong>Article Results:</strong></p><div id="model"></div><div id="score_tag"></div><div id="agreement"></div><div id="subjectivity"></div><div id="confidence"></div><div id="irony"></div></div></section></main><footer><p><a href="#">&copy; gitHub</a></p></footer><script>if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js').then(registration => {
+                    console.log('SW registered: ', registration);
+                }).catch(registrationError => {
+                    console.log('SW registration failed: ', registrationError);
+                });
+            });
+        }</script></body></html>
