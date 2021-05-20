@@ -1,5 +1,4 @@
 // Api Key and URL for meaning cloud
-const api_key = process.env.API_KEY;
 const baseUrl = "https://api.meaningcloud.com/sentiment-2.1?key=";
 
 // requirements/configuration  in project
@@ -10,6 +9,7 @@ const fetch = require('node-fetch');
 // dotenv config
 const dotenv = require('dotenv');
 dotenv.config();
+const api_key = process.env.API_KEY;
 
 // express to run server and routes
 const express = require('express');
